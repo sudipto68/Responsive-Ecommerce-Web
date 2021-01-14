@@ -74,13 +74,11 @@ h1,h4,h5,h6{
     border: none;
 }
 
+
 .row-card{
-    padding: 5px !important;
     box-shadow: 1px 1px 8px grey;
     border-radius: 10px;
 }
-
-
 
 
 
@@ -107,10 +105,11 @@ h1,h4,h5,h6{
     }
     .row-card{
         margin: 20px 12px;
+        height: 160px !important;
     }
     .row-card img{
         height: 60px !important;
-        margin-left: 170px;
+        margin-left: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
