@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+h1,h4,h5,h6{
+    color: #363958;
+    font-weight: bold;
+}
+.navbar, #banner{
+    background-color: #FFF9F4 !important;
+}
+.navbar-brand strong{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav-item a{
+    color: black !important;
+}
+.navbar ul{
+    margin-left: auto;
+}
+.navbar ul li{
+    padding: 0 10px;
+    margin-left: 5px;
+}
+.nav-item a:hover{
+    color: blue !important;
+}
+.navbar button{
+    border: none !important;
+}
+/* navbar part ends */
+#banner h1{
+    font-weight: 800;
+}
+.buy-btn{
+    padding: 10px 15px;
+    background-color: #3846CD;
+    border-radius: 10px;
+    color: white;
+}
+.buy-btn2{
+    padding: 5px 10px;
+    background-color: #3846CD;
+    border-radius: 8px;
+    color: white;
+    margin-top: -5px;
+}
+.card img{
+    height: 220px;
+    width: 80%;
+}
+.card-img-top{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+
+}
+.amount{
+    color: tomato;
+}
+.card{
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+
+.row-card{
+    padding: 5px !important;
+    box-shadow: 1px 1px 8px grey;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .casual{
+        text-align: center;
+    }
+    .card{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .row-card{
+        margin: 20px 12px;
+    }
+    .row-card img{
+        height: 60px !important;
+        margin-left: 170px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
