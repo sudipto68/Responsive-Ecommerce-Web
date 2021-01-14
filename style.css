@@ -78,6 +78,12 @@ h1,h2,h4,h5,h6{
 .row-card{
     box-shadow: 1px 1px 8px grey;
     border-radius: 10px;
+    width: 90%;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.first-row-card{
+    margin-top: 5px;
 }
 .submit-btn{
     padding: 4px 12px;
@@ -85,15 +91,6 @@ h1,h2,h4,h5,h6{
     border-radius: 8px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -113,9 +110,13 @@ h1,h2,h4,h5,h6{
         height: 160px !important;
     }
     .row-card img{
-        height: 60px !important;
+        height: 50px !important;
         margin-left: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .last-banner{
+        margin-left: 20px;
+    }
+    
 }
