@@ -3,11 +3,11 @@ body{
     font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
 }
-h1,h4,h5,h6{
+h1,h2,h4,h5,h6{
     color: #363958;
     font-weight: bold;
 }
-.navbar, #banner{
+.navbar, #banner, #contact{
     background-color: #FFF9F4 !important;
 }
 .navbar-brand strong{
@@ -79,7 +79,12 @@ h1,h4,h5,h6{
     box-shadow: 1px 1px 8px grey;
     border-radius: 10px;
 }
-
+.submit-btn{
+    padding: 4px 12px;
+    background-color: #3846CD;
+    border-radius: 8px;
+    color: white;
+}
 
 
 
